@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+#header {
+    padding: 15px;
+    background-color:lightblue;
+    color: lightslategray;
+    grid-column: 1 / 4;
+}
+#aside-left {
+    grid-column: 1 / 2;
+    padding: 15px 45px;
+    background-color:lightgoldenrodyellow;
+    color: lightslategray;
+}
+#aside-right {
+    grid-column: 3 / 4;
+    padding: 15px 45px;
+    background-color: lightgoldenrodyellow;
+    color: lightslategray;
+}
+#main {
+    padding: 15px;
+    background-color:honeydew;
+    color: lightslategray;
+    grid-column: 2 / 3;
+}
+#footer {
+    padding: 15px;
+    background-color: lightblue;
+    color: lightslategray;
+    grid-column: 1 / 4;
+}
+
